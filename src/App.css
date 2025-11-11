@@ -271,7 +271,7 @@
 
 
 .hero-content {
-  margin: 49px;
+  margin: 95px;
   margin-top: 181px;
   position: relative;
   z-index: 10;
@@ -289,7 +289,7 @@
 
 .gpu-parts-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 450px;
   height: auto;
   opacity: 0.9;
   pointer-events: none;
@@ -306,20 +306,20 @@
 }
 
 .main-heading {
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 700;
   color: #1a1a1a;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .description {
-  font-size: 18px;
+  font-size: 16px;
   color: #4a4a4a;
   line-height: 1.6;
-  margin-bottom: 40px;
-  max-width: 600px;
+  margin-bottom: 32px;
+  max-width: 500px;
 }
 
 .cta-buttons {
@@ -329,9 +329,9 @@
 }
 
 .cta-button {
-  padding: 16px 32px;
+  padding: 12px 24px;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
