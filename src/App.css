@@ -20,7 +20,7 @@
   z-index: 100;
   width: calc(100% - 80px);
   max-width: 1400px;
-  padding: 16px 40px;
+  padding: 10px 40px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -44,12 +44,9 @@
 }
 
 .logo-icon {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, #8b5cf6, #a855f7);
-  border-radius: 50%;
-  opacity: 0.8;
-  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+  width: 162px;
+  height: 56px;
+  object-fit: contain;
 }
 
 .logo-text {

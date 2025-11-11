@@ -10,8 +10,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <div className="logo-icon"></div>
-            <span className="logo-text">Nimbus Market</span>
+            <img src="/logo.png" alt="Nimbus Market Logo" className="logo-icon" />
           </div>
           <div className="nav-links">
             <a href="#browse" className="nav-link">Browse</a>
