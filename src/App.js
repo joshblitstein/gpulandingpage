@@ -330,16 +330,6 @@ function App() {
         </div>
       </section>
 
-      {/* Company Logos Section */}
-      <section className="logos-section">
-        <div className="logos-container">
-          <div className="logo-item">TIDAL</div>
-          <div className="logo-item">acreom</div>
-          <div className="logo-item">Skyline</div>
-          <div className="logo-item">upwork</div>
-          <div className="logo-item">Volta</div>
-        </div>
-      </section>
     </div>
   );
 }

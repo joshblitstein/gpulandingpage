@@ -799,7 +799,7 @@
 }
 
 .who-column {
-  text-align: left;
+  text-align: center;
 }
 
 .who-column-title {
@@ -821,17 +821,21 @@
 
 .who-list li {
   position: relative;
-  padding-left: 32px;
-  margin-bottom: 16px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .who-list li::before {
-  content: "•";
+  content: "";
   position: absolute;
   left: 0;
-  font-size: 24px;
-  color: #1a1a1a;
-  font-weight: 400;
+  top: 0.6em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8547B7 0%, #DF40A6 50%, #5D40BD 100%);
+  transform: translateY(-50%);
 }
 
 /* Company Logos Section */
@@ -1219,11 +1223,12 @@
   }
 
   .who-list li {
-    padding-left: 24px;
-    margin-bottom: 12px;
+    padding-left: 14px;
+    margin-bottom: 16px;
   }
 
   .who-list li::before {
-    font-size: 20px;
+    width: 6px;
+    height: 6px;
   }
 }
