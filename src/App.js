@@ -63,7 +63,7 @@ function App() {
             </p>
             <div className="cta-buttons">
               <a href="https://hard-ware-market.vercel.app/login" className="cta-button primary">Get Started</a>
-              <button className="cta-button secondary">Browse Inventory</button>
+              <a href="https://hard-ware-market.vercel.app/login" className="cta-button secondary">Browse Inventory</a>
             </div>
           </div>
           <div className="hero-image-column">
