@@ -19,8 +19,8 @@ function App() {
             <a href="#contact" className="nav-link">Contact</a>
           </div>
           <div className="nav-actions">
-            <a href="https://hard-ware-market.vercel.app/login" className="nav-button-secondary">Sign In</a>
-            <a href="https://hard-ware-market.vercel.app/signup" className="nav-button-primary">Get Started</a>
+            <a href="https://app.nimbusmkt.com/login" className="nav-button-secondary">Sign In</a>
+            <a href="https://app.nimbusmkt.com/signup" className="nav-button-primary">Get Started</a>
           </div>
           <button 
             className="menu-button"
@@ -41,7 +41,7 @@ function App() {
             <a href="#about" className="mobile-nav-link">About</a>
             <a href="#contact" className="mobile-nav-link">Contact</a>
             <button className="mobile-nav-button">Sign In</button>
-            <a href="https://hard-ware-market.vercel.app/signup" className="mobile-nav-button primary">Get Started</a>
+            <a href="https://app.nimbusmkt.com//signup" className="mobile-nav-button primary">Get Started</a>
           </div>
         )}
       </nav>
@@ -62,8 +62,8 @@ function App() {
               Buy and sell GPU clusters with verified ownership, transparent pricing, and protected transactions without the broker maze.
             </p>
             <div className="cta-buttons">
-              <a href="https://hard-ware-market.vercel.app/login" className="cta-button primary">Get Started</a>
-              <a href="https://hard-ware-market.vercel.app/login" className="cta-button secondary">Browse Inventory</a>
+              <a href="https://app.nimbusmkt.com/login" className="cta-button primary">Get Started</a>
+              <a href="https://app.nimbusmkt.com/login" className="cta-button secondary">Browse Inventory</a>
             </div>
           </div>
           <div className="hero-image-column">
