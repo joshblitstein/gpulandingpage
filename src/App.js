@@ -18,9 +18,6 @@ function App() {
             <a href="#about" className="nav-link">About</a>
             <a href="#contact" className="nav-link">Contact</a>
           </div>
-          <div className="nav-actions">
-            <a href="https://app.nimbusmkt.com/login" className="nav-button-secondary">Sign In</a>
-          </div>
           <button 
             className="menu-button"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -39,7 +36,6 @@ function App() {
             <a href="#sell" className="mobile-nav-link">Sell</a>
             <a href="#about" className="mobile-nav-link">About</a>
             <a href="#contact" className="mobile-nav-link">Contact</a>
-            <button className="mobile-nav-button">Sign In</button>
           </div>
         )}
       </nav>
